@@ -1,0 +1,39 @@
+h6 em kbd {
+    font-size: 20px;
+}
+
+.rock {
+    margin-left: 550px;
+    margin-top: -260px;
+}
+
+.metal {
+    margin-left: 1050px;
+    margin-top: -260px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size:15px;
+}
+
+.logo{
+    float:right;
+    margin-top:212px;
+}
+
+.texto{
+    margin-top:340px;
+    margin-left:10px;
+}

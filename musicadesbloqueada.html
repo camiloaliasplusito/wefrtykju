@@ -1,0 +1,36 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="lenguaje.js"></script>
+    <title>Clave de sol</title>
+</head>
+<body>
+    <div id="protected-content" style="display: none;">
+        <iframe src="https://chatgptespanolgratis.com/" width="100%" height="340px" frameborder=""></iframe>
+    </div>
+
+    <script>
+        function askForPassword() {
+            var password = prompt("Ingrese la clave para acceder al contenido:");
+            if (password === "31161981@") {
+                document.getElementById('protected-content').style.display = 'block';
+            } else {
+                alert("Clave incorrecta. Intente de nuevo.");
+                askForPassword();
+            }
+        }
+
+        // Llamar a la función al cargar la página
+        window.onload = askForPassword;
+    </script>
+        volver <button><a href="index.html">Atras</a></button>
+</body>
+</html>
